@@ -45,7 +45,6 @@ div > div {
   cursor: pointer;
 }
 
-
 `
 
 export default globalStyle;
