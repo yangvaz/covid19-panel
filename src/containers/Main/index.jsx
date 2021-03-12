@@ -8,12 +8,12 @@ function Main() {
   const [country, setCountry] = useState('brazil')
 
   const getCovidData = useCallback((country) => {
-    Api.getCountry(country).then(data => setData(data));
+    Api.getCountry(country).then(data => setData(data))
   })
 
   useEffect(() => {
     getCovidData(country)
-  }, [country])
+  }, [getCovidData, country])
 
   return (
     <ContainerStyled>
