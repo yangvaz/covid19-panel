@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="public/print-index.png">
+    <img src="public/print-index.PNG">
 </h1>
 
 <br />
